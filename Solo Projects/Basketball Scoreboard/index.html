@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+  <link href=" https://www.fontspace.com/cursed-timer-ulil-font-f29411"/>
+</head>
+<body>
+
+    <main class="container">
+
+    <section class="wrapper">
+
+        <section class="team" id="home"> 
+        <h3>HOME</h3>
+        <div class="Score-area">
+            <span class="count-area" id="home-score"> 0</span>
+        </div>
+        <br> 
+            <button class="counter" onclick="AddByOne('home')"> +1</button>
+            <button class="counter" onclick="AddByTwo('home')">+2</button>
+            <button class="counter" onclick="AddByThree('home')"> +3</button>
+         <br>
+        </section>
+
+        <section class="team" id="guest">
+        <h3>GUEST</h3>
+         <div class="Score-area">
+            <span class="count-area" id="guest-score"> 0</span>
+        </div>
+        <br>
+            <button class="counter" onclick="AddByOne('guest')"> +1</button>
+            <button class="counter" onclick="AddByTwo('guest')">+2</button>
+            <button class="counter" onclick="AddByThree('guest')"> +3</button>
+        <br>
+        </section>
+
+       
+    </section>
+
+  <br>
+        <button id="new-game" onclick="startAnew() ">NEW GAME</button>
+
+    </main>    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
